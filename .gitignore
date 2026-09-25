@@ -1,7 +1,6 @@
 /target
 .DS_Store
 .idea
-.vscode
 .cursor
 .direnv/
 # Ignore local Claude state but keep shared repo skills committable
@@ -22,7 +21,6 @@ cli/rustfs-gui/embedded-rustfs/rustfs
 deploy/certs/*
 deploy/data/*
 *jsonl
-.env
 .rustfs.sys
 .cargo/
 !fuzz/.cargo/
@@ -90,3 +88,5 @@ worktrees/*
 # insta scratch files; the accepted .snap files ARE the assertions and are committed
 *.snap.new
 *.pending-snap
+config.bat
+node_modules
